@@ -1,9 +1,12 @@
+// ------------- UTILS -------------
+
+@import "./utils/variables";
+
 // ------------- BASE -------------
 
 @import "./base/font";
 @import "./base/reset";
 
+// ------------- COMPONENTS -------------
 
-// ------------- UTILS -------------
-
-@import "./utils/variables";
+@import "./components/loader";
