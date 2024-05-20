@@ -1,0 +1,18 @@
+.header {
+    box-shadow: $shadow-header;
+    padding: $padding-header;
+    position: relative;
+    text-align: center;
+
+    &__title {
+        font-family: $font-logo;
+        font-size: 1.7rem;
+    }
+}
+
+.header i {
+    position: absolute;
+    left: 20px;
+    top: 13px;
+    font-size: 1.3rem;
+}

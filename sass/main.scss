@@ -7,6 +7,10 @@
 @import "./base/font";
 @import "./base/reset";
 
+// ------------- LAYOUT -------------
+
+@import "./layout/header";
+
 // ------------- COMPONENTS -------------
 
 @import "./components/loader";
