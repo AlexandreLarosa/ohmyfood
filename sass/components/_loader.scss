@@ -43,10 +43,12 @@
 @keyframes end {
     from {
         transform: scale(1);
+
     }
 
     to {
         display: none;
+        visibility: hidden;
     }
 }
 
