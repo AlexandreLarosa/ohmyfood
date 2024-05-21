@@ -29,10 +29,12 @@
 }
 
 
-
-
 .functionality-card i {
     font-size: 1.2rem;
     margin-right: 30px;
 
+}
+
+.functionality-card:hover {
+    color: $primary-color;
 }
