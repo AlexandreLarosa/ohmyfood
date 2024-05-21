@@ -42,3 +42,19 @@
         margin-bottom: 30px;
     }
 }
+
+// Functionality 
+
+.functionality {
+    display: flex;
+    flex-direction: column;
+    padding: $padding-duo;
+
+
+    &__title {
+        font-size: $size-title;
+        font-weight: $bold;
+        margin-bottom: 30px;
+
+    }
+}
