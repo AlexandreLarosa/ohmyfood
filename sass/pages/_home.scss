@@ -23,8 +23,12 @@
 
 .exploration {
     background-color: $bg-light-gray;
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    padding: $padding-exploration;
+
 
     &__title {
         font-size: 1.55rem;
