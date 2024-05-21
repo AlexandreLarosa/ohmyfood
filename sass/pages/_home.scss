@@ -1,0 +1,20 @@
+// Localisation
+
+.localisation {
+    background-color: $bg-light-gray;
+    color: $localisation-color;
+    display: flex;
+    justify-content: center;
+    padding: $padding-localisation;
+    position: relative;
+    box-shadow: $shadow-localisation ;
+
+    &__text {
+        font-size: 1.1rem;
+    }
+}
+
+.localisation i {
+    font-size: 1.1rem;
+    margin-right: 15px;
+}
