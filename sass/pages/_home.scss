@@ -58,3 +58,16 @@
 
     }
 }
+
+// Restaurant
+
+.restaurants {
+    background-color: $bg-light-gray;
+    padding: $padding-duo;
+
+    &__title {
+        font-size: $size-title;
+        font-weight: $bold;
+        margin-bottom: 30px;
+    }
+}
